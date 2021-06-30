@@ -1,8 +1,8 @@
 #!/bin/bash
-# Raspbian Quake3 installer
-# https://github.com/froschgrosch/pi-ioquake3-compiler/
+# Raspbian Quake3 installer by github:froschgrosch
+# Set keyboard layout to en/us or otherwise console won't open.
 
-TARGETDIR="/home/pi/quake3arena"
+TARGETDIR="/home/pi/ioquake3"
 SOURCEDIR="/tmp/ioquake3-source"
 
 # install required
@@ -27,7 +27,7 @@ sh build_rpi_raspbian.sh || exit 1
 # move compiled engine
 cd build/release-linux-arm 
 mv ioquake3.arm ${TARGETDIR}/ioquake3.arm
-mv ioq3ded.arm ${TARGETDIR}/ioquake3.ded.arm
+mv ioq3ded.arm ${TARGETDIR}/ioq3ded.arm
 
 mv baseq3/*.so ${TARGETDIR}/baseq3/
 mv missionpack/*.so ${TARGETDIR}/missionpack/
