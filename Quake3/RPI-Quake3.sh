@@ -1,5 +1,5 @@
 #!/bin/bash
-# Raspbian Quake3 installer by github:froschgrosch
+# Raspbian Quake3 installer by github/froschgrosch
 # Set keyboard layout to en/us or otherwise console won't open.
 
 TARGETDIR="/home/pi/ioquake3"
