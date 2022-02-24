@@ -1,5 +1,5 @@
 #!/bin/bash
-# Raspbian Quake3 installer
+# Raspbian Quake1 installer
 # https://github.com/froschgrosch/raspberrypi-stuff
 
 TARGETDIR="/home/pi/quake1"
